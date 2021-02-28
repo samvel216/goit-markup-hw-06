@@ -420,65 +420,100 @@
         <div class="footer-form-container">
           <h2 class="footer-form-title">ПОДПИШИТЕСЬ НА РАССЫЛКУ</h2>
           <form class="footer-form">
-            <input type="email" class="footer-form-input" placeholder="E-mail">
-            <button type="submit" class="footer-form-button">Подписаться
-               <svg class="footer-form-svg-sent">
-<use href="./images/spryte.svg#icon-icon-send"></use>
-            </svg>
-          </button>
+            <input
+              type="email"
+              class="footer-form-input"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="footer-form-button">
+              Подписаться
+              <svg class="footer-form-svg-sent">
+                <use href="./images/spryte.svg#icon-icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <a href="" class="modal-link-svg" data-modal-close class>
+        <a href="" class="modal-link-svg" data-modal-close>
           <svg class="modal-cross-svg">
             <use href="./images/spryte.svg#icon-Vector10"></use>
           </svg>
         </a>
-        <h2 class="modal-form-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <h2 class="modal-form-title">
+          Оставьте свои данные, мы вам перезвоним
+        </h2>
 
-       <form class="modal-form">
-         
-          <label for="name" class="modal-form-label" >
-           Имя
-          <input type="text" name="user-name" class="modal-form-input" id="name">
-          <svg class="modal-icon">
-            <use href="./images/spryte.svg#icon-person-black-18dp-1"></use>
-          </svg>
-        </label>
+        <form class="modal-form">
+          <label for="name" class="modal-form-label">
+            Имя
+            <input
+              type="text"
+              name="user-name"
+              class="modal-form-input"
+              id="name"
+            />
+            <svg class="modal-icon">
+              <use href="./images/spryte.svg#icon-person-black-18dp-1"></use>
+            </svg>
+          </label>
 
           <label for="tel" class="modal-form-label">
             Телефон
-          <input type="tel" name="user-tel" class="modal-form-input" id="tel">
-          <svg class="modal-icon">
-            <use href="./images/spryte.svg#icon-phone-black-18dp-1"></use>
-          </svg>
-        </label>
-          
-           
-            <label for="mail" class="modal-form-label">
-              Почта
-           <input type="email" name="user-mail" class="modal-form-input" id="mail">
-           <svg class="modal-icon">
-            <use href="./images/spryte.svg#icon-email-black-18dp-1"></use>
-          </svg>
-        </label>
-           
-        <label for="comment" class="modal-form-messange-lable">Комментарий
-           <textarea name="" id="" cols="30" class="modal-form-messange" placeholder="Введите текст" rows="10"></textarea>
-            </label>
+            <input
+              type="tel"
+              name="user-tel"
+              class="modal-form-input"
+              id="tel"
+            />
+            <svg class="modal-icon">
+              <use href="./images/spryte.svg#icon-phone-black-18dp-1"></use>
+            </svg>
+          </label>
 
-           <input type="checkbox" name="user-policy" class="modal-form-check-policy visually-hidden" value="conditions" id="conditions">
-           <label for="conditions" class="modal-form-lable-policy">Соглашаюсь с рассылкой и принимаю <a href="" class="modal-form-check-link">Условия договора</a></label>
+          <label for="mail" class="modal-form-label">
+            Почта
+            <input
+              type="email"
+              name="user-mail"
+              class="modal-form-input"
+              id="mail"
+            />
+            <svg class="modal-icon">
+              <use href="./images/spryte.svg#icon-email-black-18dp-1"></use>
+            </svg>
+          </label>
 
-           <button type="submit" class="modal-form-button">Отправить</button>
-         
-       </form>
+          <label for="comment" class="modal-form-messange-lable"
+            >Комментарий
+            <textarea
+              name="comment"
+              id="comment"
+              cols="30"
+              class="modal-form-messange"
+              placeholder="Введите текст"
+              rows="10"
+            ></textarea>
+          </label>
 
+          <input
+            type="checkbox"
+            name="user-policy"
+            class="modal-form-check-policy visually-hidden"
+            value="conditions"
+            id="conditions"
+          />
+          <label for="conditions" class="modal-form-lable-policy"
+            >Соглашаюсь с рассылкой и принимаю
+            <a href="" class="modal-form-check-link">Условия договора</a></label
+          >
+
+          <button type="submit" class="modal-form-button">Отправить</button>
+        </form>
+      </div>
     </div>
-   
     <script src="./js/modal.js">
           (() => {
         const refs = {
