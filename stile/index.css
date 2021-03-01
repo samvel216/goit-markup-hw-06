@@ -723,6 +723,7 @@ ul {
   align-items: center;
   justify-content: center;
 }
+
 .modal-cross-svg:hover,
 .modal-cross-svg:focus {
   fill: var(--nav-color);
