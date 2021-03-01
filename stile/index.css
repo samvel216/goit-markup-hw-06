@@ -253,7 +253,7 @@ ul {
     ),
     url(../images/fons.jpg);
   background-repeat: no-repeat;
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -288,8 +288,6 @@ ul {
 
 /*Секция преимуществ*/
 .section-advantages {
-  padding-right: 215px;
-  padding-left: 215px;
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -724,6 +722,10 @@ ul {
   height: 11px;
   align-items: center;
   justify-content: center;
+}
+.modal-cross-svg:hover,
+.modal-cross-svg:focus {
+  fill: var(--nav-color);
 }
 
 .modal-link-svg {
