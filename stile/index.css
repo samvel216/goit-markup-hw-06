@@ -724,8 +724,8 @@ ul {
   justify-content: center;
 }
 
-.modal-cross-svg:hover,
-.modal-cross-svg:focus {
+.modal-link-svg:hover  .modal-cross-svg,
+.modal-link-svg:focus  .modal-cross-svg {
   fill: var(--nav-color);
 }
 
